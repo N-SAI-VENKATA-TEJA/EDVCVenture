@@ -1,7 +1,7 @@
 const xlsx = require('xlsx');
 const path = require('path');
 
-const filePath = path.resolve(__dirname, '../../../CareerLens_Research_Data.xlsx');
+const filePath = path.resolve(__dirname, '../../../SkillShell_Research_Data.xlsx');
 const workbook = xlsx.readFile(filePath);
 
 workbook.SheetNames.forEach(sheetName => {

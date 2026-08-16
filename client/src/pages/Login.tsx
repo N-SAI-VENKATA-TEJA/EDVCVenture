@@ -35,7 +35,7 @@ const Login = () => {
             Welcome back
           </h1>
           <p className="text-body" style={{ color: 'var(--brand--neutral-lighter)' }}>
-            Log in to your CareerLens account.
+            Log in to your SkillShell account.
           </p>
         </div>
 

@@ -35,7 +35,7 @@ const Signup = () => {
             Create an account
           </h1>
           <p className="text-body" style={{ color: 'var(--brand--neutral-lighter)' }}>
-            Start building with CareerLens today.
+            Start building with SkillShell today.
           </p>
         </div>
 

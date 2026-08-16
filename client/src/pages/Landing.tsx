@@ -26,7 +26,7 @@ const Landing = () => {
               ✨ v 1.0 Is Here
             </span>
             <h1 className="text-hero" style={{ maxWidth: '900px', margin: '0 auto 1.5rem', color: 'var(--brand--white)' }}>
-              Stop Guessing. Start Building with CareerLens
+              Stop Guessing. Start Building with SkillShell
             </h1>
             <p className="text-large" style={{ maxWidth: '640px', margin: '0 auto 4rem', opacity: 0.9 }}>
               Upload your resume, see your skill gaps, and get role-specific certifications and projects recommended instantly.
@@ -261,7 +261,7 @@ const Landing = () => {
                      </div>
                   </div>
                   <p style={{ fontSize: '1.05rem', color: 'var(--brand--neutral-lighter)', lineHeight: 1.7, marginBottom: '2.5rem', fontWeight: 500 }}>
-                     "CareerLens completely changed how I prepare for placements. Before using it, finding my skill gaps was a constant headache. The Resume Analyzer is incredibly intuitive, and the actionable feedback helped me secure my first internship!"
+                     "SkillShell completely changed how I prepare for placements. Before using it, finding my skill gaps was a constant headache. The Resume Analyzer is incredibly intuitive, and the actionable feedback helped me secure my first internship!"
                   </p>
                   <div style={{ fontWeight: 800, color: 'var(--brand--black)', fontSize: '1rem' }}>
                      August 29, 2024
@@ -280,7 +280,7 @@ const Landing = () => {
                      </div>
                   </div>
                   <p style={{ fontSize: '1.05rem', color: 'var(--brand--neutral-lighter)', lineHeight: 1.7, marginBottom: '2.5rem', fontWeight: 500 }}>
-                     "I highly recommend CareerLens to any student looking to streamline their placement prep. We struggled with scattered resources and a lack of real-time visibility into what recruiters actually want. This platform solves it all."
+                     "I highly recommend SkillShell to any student looking to streamline their placement prep. We struggled with scattered resources and a lack of real-time visibility into what recruiters actually want. This platform solves it all."
                   </p>
                   <div style={{ fontWeight: 800, color: 'var(--brand--black)', fontSize: '1rem' }}>
                      August 29, 2024
@@ -557,7 +557,7 @@ const Landing = () => {
            <div style={{ background: 'var(--brand--blue-50)', borderRadius: '2rem', padding: '4rem', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '4rem' }}>
               <div style={{ flex: 1 }}>
                  <h2 className="text-h2" style={{ marginBottom: '1.5rem' }}>Ready to Transform Your <span style={{ color: 'var(--brand--color)' }}>Career?</span></h2>
-                 <p className="text-large" style={{ marginBottom: '2.5rem', color: 'var(--brand--neutral-lighter)' }}>Join hundreds of students preparing for placements with CareerLens.</p>
+                 <p className="text-large" style={{ marginBottom: '2.5rem', color: 'var(--brand--neutral-lighter)' }}>Join hundreds of students preparing for placements with SkillShell.</p>
                  <Link to="/signup" className="button">Start Your Journey</Link>
               </div>
               <div style={{ flex: 1, display: 'flex', justifyContent: 'flex-end' }}>

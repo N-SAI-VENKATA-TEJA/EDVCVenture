@@ -1,5 +1,5 @@
 # Document 05 — Backend Schema: Data Model & Auth Architecture
-### CareerLens — Version 1.0 (MongoDB / MERN)
+### SkillShell — Version 1.0 (MongoDB / MERN)
 
 ## Collections
 

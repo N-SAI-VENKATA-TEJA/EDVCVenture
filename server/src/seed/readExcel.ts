@@ -1,7 +1,7 @@
 import * as xlsx from 'xlsx';
 import path from 'path';
 
-const filePath = path.resolve(__dirname, '../../../CareerLens_Research_Data.xlsx');
+const filePath = path.resolve(__dirname, '../../../SkillShell_Research_Data.xlsx');
 const workbook = xlsx.readFile(filePath);
 
 console.log('Sheet Names:');

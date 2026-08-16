@@ -1,9 +1,9 @@
 # Document 01 — Product Requirements Document (PRD)
-### CareerLens — Version 1.0
+### SkillShell — Version 1.0
 
 | Field | Detail |
 |---|---|
-| **App Name** | CareerLens |
+| **App Name** | SkillShell |
 | **Tagline** | "Know the value before you invest the time." |
 | **Problem** | Students cannot tell which free certification courses genuinely strengthen a resume for a specific role, cannot see which of their own skill gaps a certification or project would close, and have no live, trustworthy source for hackathons, internships, and opportunity deadlines — so they waste time on low-value activity and miss what matters. |
 | **Target User** | A second- or third-year Indian engineering/UG student preparing for placements, who is either choosing their next certification, building a project portfolio, or trying to understand what their resume is missing for a specific target role. |

@@ -21,14 +21,9 @@ const Layout = () => {
           {/* Left Side: Logo */}
           <div style={{ flex: 1, display: 'flex', justifyContent: 'flex-start' }}>
             <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '8px', textDecoration: 'none' }}>
-              <div style={{ width: '2rem', height: '2rem', background: 'var(--brand--color)', borderRadius: '0.5rem', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="12" cy="12" r="10" stroke="white" strokeWidth="2"/>
-                  <path d="M12 6V12L16 16" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-              </div>
+              <img src="/logo.png" alt="SkillShell Logo" style={{ width: '4rem', height: 'auto' }} />
               <span style={{ fontSize: '1.5rem', fontWeight: 700, color: 'var(--brand--black)', letterSpacing: '-0.02em' }}>
-                CareerLens
+                SkillShell
               </span>
             </Link>
           </div>
@@ -79,13 +74,8 @@ const Layout = () => {
             {/* Brand Column */}
             <div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '1.5rem' }}>
-                <div style={{ width: '2rem', height: '2rem', background: 'var(--brand--color)', borderRadius: '0.5rem', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="12" cy="12" r="10" stroke="white" strokeWidth="2"/>
-                    <path d="M12 6V12L16 16" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                </div>
-                <span style={{ fontSize: '1.5rem', fontWeight: 700, color: 'var(--brand--black)', letterSpacing: '-0.02em' }}>CareerLens</span>
+                <img src="/logo.png" alt="SkillShell Logo" style={{ width: '4rem', height: 'auto' }} />
+                <span style={{ fontSize: '1.5rem', fontWeight: 700, color: 'var(--brand--black)', letterSpacing: '-0.02em' }}>SkillShell</span>
               </div>
               <p className="text-body" style={{ maxWidth: '280px', color: 'var(--brand--neutral-lighter)' }}>
                 Know the value before you invest the time. The ultimate career preparation portal for students.
@@ -126,8 +116,8 @@ const Layout = () => {
           </div>
 
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', paddingTop: '2rem', borderTop: '1px solid var(--brand--blue-100)' }}>
-            <p className="text-small" style={{ color: 'var(--brand--neutral-lighter)' }}>© 2026 CareerLens. All rights reserved.</p>
-            <p className="text-small" style={{ color: 'var(--brand--neutral-lighter)' }}>hello@careerlens.app</p>
+            <p className="text-small" style={{ color: 'var(--brand--neutral-lighter)' }}>© 2026 SkillShell. All rights reserved.</p>
+            <p className="text-small" style={{ color: 'var(--brand--neutral-lighter)' }}>hello@skillshell.app</p>
           </div>
         </div>
       </footer>

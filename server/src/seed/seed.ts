@@ -10,11 +10,11 @@ import Project from '../models/Project';
 
 dotenv.config({ path: path.resolve(__dirname, '../../.env') });
 
-const filePath = path.resolve(__dirname, '../../../CareerLens_Research_Data.xlsx');
+const filePath = path.resolve(__dirname, '../../../SkillShell_Research_Data.xlsx');
 
 async function seedDatabase() {
   try {
-    const mongoUri = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/careerlens';
+    const mongoUri = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/skillshell';
     await mongoose.connect(mongoUri);
     console.log('Connected to MongoDB');
 

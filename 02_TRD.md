@@ -1,5 +1,5 @@
 # Document 02 — Technical Requirements Document (TRD)
-### CareerLens — Version 1.0
+### SkillShell — Version 1.0
 
 | Field | Detail |
 |---|---|
